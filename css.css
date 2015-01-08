@@ -1,0 +1,27 @@
+table {
+	width: 540px;
+    height: 540px;
+    position:fixed;
+    margin-left:-270px; /* half of width */
+    margin-top:-270px;  /* half of height */
+    top:50%;
+    left:50%;
+}
+
+th,td {
+    height: 70px;
+    width: 70px;
+}
+
+#black {
+	border: 1px solid black;
+    border-collapse: collapse;
+    background: #000000;
+}
+
+#white {
+	border: 1px solid black;
+    border-collapse: collapse;
+    background: #FFFFFF;	
+}
+
